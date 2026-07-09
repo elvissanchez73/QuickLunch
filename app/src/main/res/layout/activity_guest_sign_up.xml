@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E2E2"
+    tools:context=".GuestSignUpActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="572dp"
+        android:layout_height="372dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="104dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/signUpButtonGuest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signUpButtonGuest"
+        android:layout_width="276dp"
+        android:layout_height="63dp"
+        android:elevation="8dp"
+        android:text="Sign Up As New Teacher"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="#468EE3"
+        app:cornerRadius="28dp"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/LoginButtonGuest"
+        android:layout_width="276dp"
+        android:layout_height="63dp"
+        android:elevation="8dp"
+        android:text="Login In As Existing Teacher"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="#468EE3"
+        app:cornerRadius="28dp"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E2E2"
+    tools:context=".HostSignUpActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="572dp"
+        android:layout_height="372dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="232dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/signUpButtonHost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/LoginButtonHost"
+        android:layout_width="276dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="24dp"
+        android:elevation="8dp"
+        android:text="Login In As Existing Lunch Employee"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="#468EE3"
+        app:cornerRadius="28dp"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signUpButtonHost"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signUpButtonHost"
+        android:layout_width="276dp"
+        android:layout_height="63dp"
+        android:elevation="8dp"
+        android:text="Sign Up As New Lunch Employee"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="#468EE3"
+        app:cornerRadius="28dp"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

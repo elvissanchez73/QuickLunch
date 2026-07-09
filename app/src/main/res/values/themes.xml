@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuickLunch" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Light theme customization -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+       <!-- <item name="colorBackground">@color/background</item>-->
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+
+        <!-- Status bar and navigation bar colors -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+
+
+    </style>
+
+    <!-- Application Theme -->
+    <style name="Theme.QuickLunch" parent="Base.Theme.QuickLunch" />
+
+    <!-- Night Mode Theme -->
+    <style name="Base.Theme.QuickLunch.Night" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Dark theme customization -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/on_primary_dark</item>
+       <!-- <item name="colorBackground">@color/background_dark</item> -->
+        <item name="colorOnBackground">@color/on_background_dark</item>
+    </style>
+</resources>

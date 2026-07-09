@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background rectangle -->
+    <path
+        android:fillColor="#03A9F4"
+        android:pathData="M20,20h68v68h-68z" />
+        
+    <!-- Q -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,40 L35,40 L35,55 L30,55 L30,40" />
+        
+    <!-- u -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,40 L42,40 L42,55 L37,55 L37,40" />
+        
+    <!-- i -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,40 L49,40 L49,47 L44,47 L44,40" />
+        
+    <!-- c -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,40 L56,40 L56,55 L51,55 L51,40" />
+        
+    <!-- k -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,40 L63,40 L63,55 L58,55 L58,40" />
+        
+    <!-- L -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,40 L70,40 L70,47 L65,47 L65,40" />
+        
+    <!-- unch -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,40 L77,40 L77,55 L72,55 L72,40" />
+        
+    <!-- Horizontal fork -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,65 L75,65 L75,67 L35,67 L35,65 M45,63 L45,69 L43,69 L43,63 M55,63 L55,69 L53,69 L53,63 M65,63 L65,69 L63,69 L63,63" />
+        
+</vector>

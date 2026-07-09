@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions for internet and network state -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuickLunch"
+        tools:targetApi="31">
+
+        <!-- Firebase and Google services -->
+        <!-- Make sure google-services.json is in the app folder -->
+
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainGuestActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".HostSignUpActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".GuestSignUpActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".NewHostActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".NewGuestActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ExistingHostActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ExistingGuestActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainHostActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="true" />
+
+    </application>
+
+</manifest>
