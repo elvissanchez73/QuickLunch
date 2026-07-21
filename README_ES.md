@@ -1,6 +1,6 @@
 # QuickLunch
 
-QuickLunch es una aplicacion Android disenada para ayudar a maestros y personal de cafeteria a coordinar la asistencia al almuerzo de forma mas eficiente. La aplicacion usa Firebase para autenticacion y sincronizacion de datos en tiempo real, facilitando que el personal escolar pueda manejar conteos y participacion desde un dispositivo movil.
+QuickLunch es una aplicacion Android diseñada para ayudar a maestros y personal de cafeteria a coordinar la asistencia al almuerzo de forma mas eficiente. La aplicacion usa Firebase para autenticacion y sincronizacion de datos en tiempo real, facilitando que el personal escolar pueda manejar conteos y participacion desde un dispositivo movil.
 
 ## Resumen
 
